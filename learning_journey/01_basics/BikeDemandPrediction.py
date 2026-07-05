@@ -42,11 +42,11 @@ print(f"当前操作系统: {system}，使用中文字体: {plt.rcParams['font.s
 # 第1步：加载数据
 # ============================================================
 # 使用 pandas 读取 CSV 文件，将数据加载为 DataFrame
-# 使用相对路径：从当前脚本所在目录向上两级到项目根目录，再进入 resources/data/
+# 使用相对路径：从当前脚本所在目录向上两级到项目根目录，再进入 data/raw/
 # 这样无论从哪里运行脚本，只要保持目录结构不变就能找到数据文件
 script_dir = os.path.dirname(os.path.abspath(__file__))  # 获取当前脚本所在目录
 project_root = os.path.dirname(os.path.dirname(script_dir))  # 向上两级到项目根目录
-data_path = os.path.join(project_root, 'resources', 'data', 'bike-day.csv')
+data_path = os.path.join(project_root, 'data', 'raw', 'bike-day.csv')
 data = pd.read_csv(data_path)
 
 # 打印数据的前几行，了解数据长什么样

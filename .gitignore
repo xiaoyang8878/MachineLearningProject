@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.ipynb_checkpoints/
+
+# 虚拟环境
+.venv/
+env/
+ENV/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 数据文件（大型数据集建议不提交到Git）
+data/raw/*.csv
+data/processed/*
+
+# 模型文件
+models/
+*.pkl
+*.joblib
+*.h5
+*.pth
+
+# 日志和临时文件
+logs/
+*.log
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints
