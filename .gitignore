@@ -23,8 +23,7 @@ venv/
 .DS_Store
 Thumbs.db
 
-# 数据文件（大型数据集建议不提交到Git）
-data/raw/*.csv
+# 数据文件（如有大型数据集可手动排除）
 data/processed/*
 
 # 模型文件
