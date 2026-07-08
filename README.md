@@ -38,9 +38,12 @@ MachineLearningProject/
 │       ├── RandomForestMinSamplesLeaf.py      # min_samples_leaf 参数调优
 │       ├── RandomForestFeatureImportance.py   # 特征重要性分析（鸢尾花）
 │       └── homework/                          # 课后作业：皮马印第安人糖尿病
-│           ├── PimaRandomForest.py            # 随机森林训练 + 特征重要性 + 分类结果
-│           ├── PimaFeatureImportance.png      # 特征重要性柱状图
-│           └── PimaConfusionMatrix.png        # 混淆矩阵图
+│           ├── PimaRandomForest.py            # 随机森林训练 + 4 张结果图生成
+│           └── results/                       # 输出结果统一存放
+│               ├── PimaConfusionMatrix.png    # 混淆矩阵热力图
+│               ├── PimaROC.png                # ROC 曲线 (AUC=0.805)
+│               ├── PimaFeatureImportance.png  # 特征重要性排序图
+│               └── PimaPCA.png                # PCA 降维散点图
 │
 ├── data/                                      # 数据目录
 │   └── raw/                                   # 原始数据
