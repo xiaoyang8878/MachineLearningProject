@@ -9,7 +9,7 @@ MachineLearningProject/
 ├── learning_journey/                          # 学习旅程（按顺序学习）
 │   ├── notes/                                 # 学习笔记
 │   │   ├── 机器学习学习笔记.md                 # 总笔记
-│   │   ├── 00_basics/
+│   │   ├── 00_intro/
 │   │   │   └── L1_Homework_用线性回归预测共享单车的需求.ipynb
 │   │   ├── 01_logistic_regression/
 │   │   │   ├── LogisticRegressionNotes.md
@@ -23,7 +23,7 @@ MachineLearningProject/
 │   │   └── 04_unsupervised_learning/
 │   │       └── UnsupervisedLearning.md         # 无监督学习笔记（K-Means 与 PCA）
 │   │
-│   ├── 00_basics/                             # 第1课：机器学习概述
+│   ├── 00_intro/                              # 第1课：机器学习概述
 │   │   ├── HelloMachineLearing.py             # 入门示例
 │   │   └── BikeDemandPrediction.py            # 入门 demo
 │   ├── 01_logistic_regression/                # 第1课：逻辑回归（分类）
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ```bash
 # 第1课：机器学习入门 + 逻辑回归
-python learning_journey/00_basics/HelloMachineLearing.py
+python learning_journey/00_intro/HelloMachineLearing.py
 python learning_journey/01_logistic_regression/HelloLogisticRegression.py
 
 # 第2课：线性回归
@@ -128,7 +128,7 @@ python learning_journey/04_unsupervised_learning/pca_single_sample_animation.py
 
 | 部分 | 课程 | 内容 | 笔记 | 状态 |
 |:---|:---|:---|:---|:---:|
-| **第一部分** | 第1课 | 机器学习概述、逻辑回归、Sigmoid/Softmax、梯度下降 | `00_basics` / `01_logistic_regression` | ✅ 已完成 |
+| **第一部分** | 第1课 | 机器学习概述、逻辑回归、Sigmoid/Softmax、梯度下降 | `00_intro` / `01_logistic_regression` | ✅ 已完成 |
 | | 第2课 | 线性回归、MSE/R²、多特征扩展、残差分析 | `02_linear_regression` | ✅ 已完成 |
 | | 第3课 | 决策树、基尼系数、过拟合、随机森林、特征重要性 | `03_decision_tree` | ✅ 已完成 |
 | | 第4课 | K-Means、肘部法则、PCA、轮廓系数、局限性、t-SNE | `04_unsupervised_learning` | ✅ 已完成 |
